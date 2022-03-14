@@ -1,0 +1,47 @@
+.app{
+    height: 100vh;
+    background-color: #F0CED9;
+
+    .splashContainer{
+        height: 100%;
+        animation-name: disappear;
+        animation-duration: 5s;
+    }
+
+    .appContainer{
+
+        height: 100%;
+        animation-name: appearPage;
+        animation-duration: 5s;
+
+        .sections{
+            width: 100%;
+            /*height: calc(100vh - 70px);*/        
+            position: relative;
+            top: 70px;
+            /*scroll-behavior: smooth;
+            scroll-snap-type: y mandatory;
+            scrollbar-width: none; //for firefox
+            &::-webkit-scrollbar{
+                display: none;
+            }*/        
+
+            
+        }
+    }
+
+   
+    
+}
+
+@keyframes disappear{
+    from { opacity : 1; }
+    to {opacity : 0; }
+}
+
+@keyframes appearPage{
+    from { opacity : 0; }
+    to {opacity : 1; }
+  }
+
+

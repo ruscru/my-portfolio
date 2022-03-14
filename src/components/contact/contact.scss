@@ -1,0 +1,184 @@
+@import "../../global.scss";
+
+.contact {
+  background-color: #98B8F1;
+
+  .svgContainer {
+    height: 120px;
+    overflow: hidden;
+  }
+ 
+
+  @include mobile {
+ /*   flex-direction: column;*/
+  }
+
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @include mobile {
+      flex-direction: column;
+    }
+
+    .right {
+      width: 50%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+
+      @include mobile {
+        width: 100%;
+      }
+
+      .contactImg{
+        border-radius: 50%;
+        overflow: hidden;
+        width: 400px;
+        height: 400px;
+
+        @include mobile {
+          width: 280px;
+          height: 280px;
+          margin-bottom: 20px;
+        }
+
+        img {
+          height: 400px;
+
+          @include mobile {
+            height: 280px;
+          }
+        }
+      }
+
+      
+    }
+    .left {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      @include mobile {
+        width: 100%;
+      }
+
+      h2 {
+        font-size: 30px;
+        margin-top: 30px;
+      }
+
+      span{
+        width: 80%;
+        margin: 20px 0;
+        text-align: justify;
+      }
+
+      .messageResult{
+        width: 80%;
+        height: 40px;
+        
+        display: flex;        
+        align-items: center;
+
+        span{
+          padding: 10px;
+          font-size: 14px;
+          color:#44A583;
+          background-color: #D1EAE6;
+          border-radius: 3px;    
+          width: 100%;      
+        }
+      }
+
+      form {
+        width: 80%;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
+
+        input {
+          width: 95%;
+          border: 0;
+          border-radius: 5px;
+          padding: 10px;          
+          font-size: 15px;
+          margin-top: 10px;
+
+          &:focus{
+            outline: none;
+            border: 1.2px solid #666;            
+          }
+
+          &:invalid[focused="true"]{
+            border: 1px solid red;
+          }
+
+          @include mobile {
+            width: 270px;
+            height: 20px;
+          }
+        }
+
+        textarea {
+          width: 95%;
+          height: 100px;
+          border: 0;
+          border-radius: 5px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+          padding: 10px;
+          font-size: 15px;
+
+          &:focus{
+            outline: none;
+            border: 1.2px solid #666;            
+          }
+
+          &:invalid[focused="true"]{
+            border: 1px solid red;
+          }
+
+          @include mobile {
+            width: 270px;
+            height: 100px;
+          }
+        }
+
+        button {
+          width: 250px;          
+          color: white;
+          background-color: #93D8C5;
+          border: none;
+          border-radius: 5px;
+          padding: 16px 0px 16px 0px;
+          font-size: 19px;
+          -webkit-appearance: none;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          cursor: pointer;
+          transition: .6s all;
+          
+
+          &:hover{
+            background-color: #F3A6AD;
+          }
+
+          &:focus {
+            outline: none;
+          }
+        }
+
+        span {
+          color: green;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "Ip Address Track",
+      "img":
+        "assets/projects/address_tracker.JPG",
+	    "text" : "Una web que permite identificar la ubicación de una IP o un dominio. Realizando este proyecto pude poner en práctica el uso de los mapas de google, el uso de contextos con React y el consumo de API's externas",
+	    "github": "www.github.com",
+	    "tech" : ["react", "html5", "css", "Google Maps", "responsive designed" ],
+	    "url" : "www.google.com" 
+    },
+    {
+      "id": 2,
+      "title": "Formulario de Registro",
+      "img":
+        "assets/projects/form_validation.jpg",
+	    "text" : "Web de registro con validaciones necesarias. En este mini proyecto, profundice el uso de UseState y de propagación de props (tanto variables como métodos).",
+	    "github": "www.google.com",
+	    "tech" : ["react", "html5", "css", "responsive designed" ],
+	    "url" : "www.google.com"	  
+    },
+    {
+      "id": 3,
+      "title": "Dark Mode",
+      "img":
+        "assets/projects/dark_mode.jpg",
+	    "text" : "Una One Page simple con la cual pude poner en práctica el darkmode y los contextos en react",
+	    "github": "www.github.com",
+	    "tech" : ["react", "html5", "css", "responsive designed" ],
+	    "url" : "www.google.com"  
+    },
+    {
+      "id": 4,
+      "title": "Crypto Hunter",
+      "img":
+        "assets/projects/cripto_hunter.png",
+	    "text" : "Una página web que permite hacer tracking de criptomonedas, se puede ver tanto en dolares, como en Euros. Permite visualizar el comportamiento diaria, mensual o anual de una criptomoneda en concreto. Use el API de coingecko para obtener la información en tiempo real",
+	    "github": "www.github.com",
+	    "tech" : ["react", "html5", "css", "responsive designed", "Material UI", "Axios", "react-chartjs-2" ],
+	    "url" : "www.google.com"	  
+    },
+    {
+      "id": 5,
+      "title": "Memes App",
+      "img":
+        "assets/projects/memes.jpg",
+	    "text" : "Una página web que permite crear memes, seleccionando una imagen y colocando el texto que se quiera, posteriormente exportando la imagen.",
+	    "github": "www.github.com",
+	    "tech" : ["react", "html5", "css", "responsive designed" ],
+	    "url" : "www.google.com"	  
+    },
+    {
+      "id": 6,
+      "title": "Dashboard",
+      "img":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+	    "text" : "Web que muestra un dashboard. Aqui pude prácticar el uso de ",
+	    "github": "url github",
+	    "tech" : ["react", "html5", "css" ],
+	    "url" : "url del proyecto"	  
+    },
+    {
+      "id": 7,
+      "title": "Youtube Clone",
+      "img":
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+	    "text" : "Web que clona funcionalidades de youtube.",
+	    "github": "url github",
+	    "tech" : ["react", "html5", "css" ],
+	    "url" : "url del proyecto"	  
+    }
+  ]
+  

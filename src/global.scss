@@ -1,0 +1,17 @@
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
+
+/*
+Rosado #F0CED9
+Rosado Oscuro #F3A6AD
+morado #DBB7E3
+gris #EEEEF0
+azul #98B8F1
+verde #93D8C5
+*/
