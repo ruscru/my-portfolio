@@ -84,7 +84,7 @@ export default function Skills(props) {
                 
             </div>
             <h2>Actualmente trabajando en:</h2>
-            <p>Mejorar mis habilidades con react, además me encuentro entendiendo y prácticando Next.js y de divierto aprendiendo de animaciones con css.</p>
+            <p>Mejorar mis habilidades con react, además me encuentro entendiendo y prácticando Next.js y me divierto aprendiendo de animaciones con css.</p>
         </div>
         
         </div>

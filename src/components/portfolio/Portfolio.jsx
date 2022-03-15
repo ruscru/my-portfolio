@@ -28,8 +28,8 @@ export default function Portfolio() {
                                     }
                                 </ul>
                                 <div className="links">
-                                    <a href={item.url}><Launch className="iconLink" /></a>
-                                    <a href={item.github}><GitHub className="iconLink" /></a>                                    
+                                    <a href={item.url} target="_blank" rel="noreferrer"><Launch className="iconLink" /></a>
+                                    <a href={item.github} target="_blank" rel="noreferrer"><GitHub className="iconLink" /></a>                                    
                                 </div>
                             </div>
                         </div>

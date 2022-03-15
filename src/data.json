@@ -1,33 +1,33 @@
 [
     {
       "id": 1,
+      "title": "Mi portafolio",
+      "img":
+        "assets/projects/my-portfolio.png",
+      "text" : "Web construida con react, en la cual puse en práctica muchos de los conocimientos que tengo en react, html y css. Es mi sitio personal",
+      "github": "https://github.com/ruscru/my-portfolio",
+      "tech" : ["react", "html5", "css", "responsive designed", "hooks", "animaciones" ],
+      "url" : "https://ruth-cruz.netlify.app/" 
+    },
+    {
+      "id": 2,
       "title": "Ip Address Track",
       "img":
         "assets/projects/address_tracker.JPG",
 	    "text" : "Una web que permite identificar la ubicación de una IP o un dominio. Realizando este proyecto pude poner en práctica el uso de los mapas de google, el uso de contextos con React y el consumo de API's externas",
-	    "github": "www.github.com",
+	    "github": "https://github.com/ruscru/ip-address-track",
 	    "tech" : ["react", "html5", "css", "Google Maps", "responsive designed" ],
-	    "url" : "www.google.com" 
+	    "url" : "https://ip-track-app.netlify.app/" 
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Formulario de Registro",
       "img":
         "assets/projects/form_validation.jpg",
 	    "text" : "Web de registro con validaciones necesarias. En este mini proyecto, profundice el uso de UseState y de propagación de props (tanto variables como métodos).",
-	    "github": "www.google.com",
+	    "github": "https://github.com/ruscru/register-form",
 	    "tech" : ["react", "html5", "css", "responsive designed" ],
-	    "url" : "www.google.com"	  
-    },
-    {
-      "id": 3,
-      "title": "Dark Mode",
-      "img":
-        "assets/projects/dark_mode.jpg",
-	    "text" : "Una One Page simple con la cual pude poner en práctica el darkmode y los contextos en react",
-	    "github": "www.github.com",
-	    "tech" : ["react", "html5", "css", "responsive designed" ],
-	    "url" : "www.google.com"  
+	    "url" : "https://validation-form-app.netlify.app/"	  
     },
     {
       "id": 4,
@@ -35,12 +35,23 @@
       "img":
         "assets/projects/cripto_hunter.png",
 	    "text" : "Una página web que permite hacer tracking de criptomonedas, se puede ver tanto en dolares, como en Euros. Permite visualizar el comportamiento diaria, mensual o anual de una criptomoneda en concreto. Use el API de coingecko para obtener la información en tiempo real",
-	    "github": "www.github.com",
+	    "github": "https://github.com/ruscru/cripto-app",
 	    "tech" : ["react", "html5", "css", "responsive designed", "Material UI", "Axios", "react-chartjs-2" ],
-	    "url" : "www.google.com"	  
+	    "url" : "https://cripto-hunter.netlify.app/"	  
     },
     {
       "id": 5,
+      "title": "Dark Mode",
+      "img":
+        "assets/projects/dark_mode.jpg",
+	    "text" : "Una One Page simple con la cual pude poner en práctica el darkmode y los contextos en react",
+	    "github": "https://github.com/ruscru/dark-mode",
+	    "tech" : ["react", "html5", "css", "responsive designed" ],
+	    "url" : "https://darkmode-testapp.netlify.app/"  
+    },
+    
+    {
+      "id": 6,
       "title": "Memes App",
       "img":
         "assets/projects/memes.jpg",
@@ -50,7 +61,7 @@
 	    "url" : "www.google.com"	  
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "Dashboard",
       "img":
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
@@ -60,7 +71,7 @@
 	    "url" : "url del proyecto"	  
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Youtube Clone",
       "img":
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
