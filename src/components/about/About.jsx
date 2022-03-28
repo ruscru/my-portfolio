@@ -19,7 +19,9 @@ export default function About() {
                     Soy una desarrolladora Front End
                     </h1>
                     <span>
-                    Mi interes en el desarrollo web empezó en el 2014, cuando decidí intentar construir un sitio en wordpress. Siempre he sido alguien que tiene un lado muy lógico, cuando descubrí el desarrollo web me di cuenta que encajaria perfectamente, ya que puedo usar mi lado lógico para codificar. En el desarrollo web he encontrado retos interesantes, puedo ayudar a construir sitios orientados a los usuarios y a crear experiencias digitales increibles.
+                    Soy ingeniera de sistemas, apasionada por el desarrollo Front End en busca de proyectos que reten a mi capacidad lógica y analítica. Cuando descubrí el desarrollo web me di cuenta que encajaría perfectamente, ya que puedo usar mi lado lógico para codificar. 
+                    <br />
+                    En el desarrollo web he encontrado retos interesantes, puedo ayudar a construir sitios que impacten en la sociedad y a crear experiencias digitales increíbles. También tengo experiencia en los ámbitos de diseño de producto, gestión de proyectos y relación con el cliente.
                     </span>
                     <div className="iconsSocials">
                         <a href="https://github.com/ruscru" target="_blank" rel="noreferrer"><GitHub className="iconMedia"/></a>

@@ -48,37 +48,6 @@
 	    "github": "https://github.com/ruscru/dark-mode",
 	    "tech" : ["react", "html5", "css", "responsive designed" ],
 	    "url" : "https://darkmode-testapp.netlify.app/"  
-    },
-    
-    {
-      "id": 6,
-      "title": "Memes App",
-      "img":
-        "assets/projects/memes.jpg",
-	    "text" : "Una página web que permite crear memes, seleccionando una imagen y colocando el texto que se quiera, posteriormente exportando la imagen.",
-	    "github": "www.github.com",
-	    "tech" : ["react", "html5", "css", "responsive designed" ],
-	    "url" : "www.google.com"	  
-    },
-    {
-      "id": 7,
-      "title": "Dashboard",
-      "img":
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-	    "text" : "Web que muestra un dashboard. Aqui pude prácticar el uso de ",
-	    "github": "url github",
-	    "tech" : ["react", "html5", "css" ],
-	    "url" : "url del proyecto"	  
-    },
-    {
-      "id": 8,
-      "title": "Youtube Clone",
-      "img":
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-	    "text" : "Web que clona funcionalidades de youtube.",
-	    "github": "url github",
-	    "tech" : ["react", "html5", "css" ],
-	    "url" : "url del proyecto"	  
     }
   ]
   

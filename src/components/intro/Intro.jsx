@@ -12,7 +12,7 @@ export default function Intro() {
             showCursor: true, 
             backDelay: 1500,
             backSpeed: 60,
-            strings: ['Developer', 'Designer', 'Content Creator' ] 
+            strings: ['Desarrolladora FrontEnd', 'PMP', 'Scrum Master' ] 
         });
     },[])
 
@@ -20,9 +20,10 @@ export default function Intro() {
         <div className="intro" id="intro" >
          <div className="introWrapper">
             <div className="wrapper">
-                 <h2>Hi There, I'm</h2>
+                 {/*<h2>Hi There, I'm</h2>*/}
+                 <h2>Hola, Soy</h2>
                  <h1>Ruth Stella Cruz Cetina</h1>
-                 <h3>FrontEnd <span ref={textRef}></span></h3>
+                 <h3><span ref={textRef}></span></h3>
              </div>            
              <a href="#about">
                  <img src="assets/down.png" alt="" />
