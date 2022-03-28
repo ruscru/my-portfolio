@@ -6,10 +6,10 @@ Si deseas puedes usar este código fuente, pero por favor se una buena persona y
 
 ## Tecnologías
 
-react.js
-hooks
-scss
-jsx
+- react.js
+- hooks
+- scss
+- jsx
 
 ## Deploy
 
